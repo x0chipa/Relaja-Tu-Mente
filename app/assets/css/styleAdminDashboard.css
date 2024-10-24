@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007b80;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filters h2 {
+    margin-top: 0;
+}
+
+.filters form {
+    display: flex;
+    gap: 15px;
+}
+
+.filters form label {
+    font-weight: bold;
+    color: #444;
+}
+
+.filters form input,
+.filters form select,
+.filters form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.results table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results table th,
+.results table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.results table th {
+    background-color: #007b80;
+    color: #fff;
+}
+
+.results table td a {
+    color: #007b80;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.charts {
+    margin-top: 30px;
+}
+
+.chart-container {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
